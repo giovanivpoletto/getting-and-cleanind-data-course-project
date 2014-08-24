@@ -4,7 +4,7 @@ The variables:
 
 - subject: identifies the subject who performed the activity. Its range is from 1 to 30. 
 - activity_label: identifies which activity the subject performed.
-- the following variables indicates mean of the time domain signals for each activity and each subject.
+- the following variables indicates the mean of the time domain signals for each activity and each subject.
 <b>tBodyAccmeanX
 tBodyAccmeanY
 tBodyAccmeanZ
@@ -39,7 +39,7 @@ tBodyGyroMagstd
 tBodyGyroJerkMagmean
 tBodyGyroJerkMagstd</b>
 
-- the following variables indicates mean of the frequency domain signals for each activity and each subject.
+- the following variables indicates the mean of the frequency domain signals for each activity and each subject.
 <b>fBodyAccmeanX
 fBodyAccmeanY
 fBodyAccmeanZ
@@ -66,7 +66,7 @@ fBodyBodyGyroMagstd
 fBodyBodyGyroJerkMagmean
 fBodyBodyGyroJerkMagstd</b>
 
-- the following variables represents de mean of averaging the signals for each activity and each subject.
+- the following variables represents the mean of averaging the signals for each activity and each subject.
 <b>angletBodyAccMeangravity
 angletBodyAccJerkMeangravityMean
 angletBodyGyroMeangravityMean

@@ -1,6 +1,6 @@
 run_analysis <- function(){
         
-        ## Step 1 - loading train measurements
+ ## Step 1 - loading train measurements
         train <- read.table(file = "data/train/X_train.txt")
         train <- cbind(train, read.table(file = "data/train/subject_train.txt"))
                 
@@ -48,7 +48,7 @@ run_analysis <- function(){
         MFD <- rbind(train, test)
         
         ## Step 2 - extracting only the interest measurements
-        interestmeasurements <- c(1,2,3,4,5,6,41,42,43,44,45,46,81,82,83,84,85,86,161,162,162,164,165,166,201,202,214,215,227,228,240,241,253,254,266,267,268,269,270,345,346,347,348,349,350,424,425,426,427,428,429,503,504,516,517,529,530,542,543,562,563)
+        interestmeasurements <- c(1,2,3,4,5,6,41,42,43,44,45,46,81,82,83,84,85,86,161,162,162,164,165,166,201,202,214,215,227,228,240,241,253,254,266,267,268,269,270,345,346,347,348,349,350,424,425,426,427,428,429,503,504,516,517,529,530,542,543,555,556,557,558,559,560,561,562,563)
         
         measurementsdata <- data.frame()
         
